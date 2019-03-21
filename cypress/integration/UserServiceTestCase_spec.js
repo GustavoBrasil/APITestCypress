@@ -2,8 +2,8 @@ const userService = require('../support/services/UserServices.js');
 
 
 describe('Pet Store API Test- Service User', () => {
-  
-  it('POST User', () => {
+
+    it('POST User', () => {
         userService.postUserRequest();
     });
 
@@ -13,9 +13,9 @@ describe('Pet Store API Test- Service User', () => {
 
     it('GET Use Log Off', () => {
         userService.getUserLogOffRequest();
-     });
-   
+    });
+
     it('DELETE User', () => {
-        userService.deleteUserRequest();        
+        userService.deleteUserRequest();
     });
 });
