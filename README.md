@@ -13,6 +13,6 @@ Na `UserServices.js`, foi utilizado a biblioteca faker para gerar dados randômi
 ## Como rodar:
 1. Faça um git clone : `https://github.com/GustavoBrasil/APITestCypress.git`;
 2. No terminal digite: `npm install` para instalar as dependencias necessária para rodar o código;
-3. Com o caminho da pasta aberto no terminal digite: `npm cy:open` para abrir a interface GUI;
+3. Com o caminho da pasta aberto no terminal digite: `npm run cy:open` para abrir a interface GUI;
 4. Clicar em `Run all specs`.
 
